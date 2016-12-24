@@ -1,5 +1,6 @@
-﻿// XeZrunner Proprietary Projects
-
+ // XeZrunner.UI | RippleDrawable.xaml.cs | Available on github : https://github.com/XeZrunner/XeZrunner.UI/
+ // You must include credit to this project while using it in yours.
+ // TODO: License this
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
