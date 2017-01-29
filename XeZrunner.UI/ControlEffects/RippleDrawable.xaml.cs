@@ -188,7 +188,7 @@ namespace XeZrunner.UI.ControlEffects
         }
 
         // Click!
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
             if (!DownAnimHappening)
             {
@@ -243,7 +243,7 @@ namespace XeZrunner.UI.ControlEffects
         }
 
         // Hold down
-        private void usercontrol_MouseDown(object sender, MouseButtonEventArgs e)
+        public void usercontrol_MouseDown(object sender, MouseButtonEventArgs e)
         {
             LongDowntimer.Interval = new TimeSpan(0, 0, 0, 0, 250);
             LongDowntimer.Tick += (s1, ev) =>
@@ -299,7 +299,7 @@ namespace XeZrunner.UI.ControlEffects
         }
 
         // Release
-        private void usercontrol_PreviewMouseUp(object sender, RoutedEventArgs e)
+        public void usercontrol_PreviewMouseUp(object sender, RoutedEventArgs e)
         {
             LongDowntimer.Stop();
 
