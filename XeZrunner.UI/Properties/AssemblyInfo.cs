@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("XeZrunner.UI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("An UI framework consisting of usercontrols and styles meant to be used for developing WPF applications utilizing the Xesign™ User Interface.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("XeZrunner.UI")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Xesign™")]
+[assembly: AssemblyProduct("Xesign™ UI")]
+[assembly: AssemblyCopyright("Copyright © Xesign™ 2017")]
+[assembly: AssemblyTrademark("Xesign™")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
